@@ -9,4 +9,4 @@
 #=============================================================
 
 # fw876/helloworld
-sed -i 's/^#\(.*helloworld\)/\1/' feeds.conf.default
+#sed -i 's/^#\(.*helloworld\)/\1/' feeds.conf.default
