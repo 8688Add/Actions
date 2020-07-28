@@ -11,6 +11,6 @@
 #sed -i '/uci commit luci/i\uci set luci.main.mediaurlbase=/luci-static/argon' package/lean/default-settings/files/zzz-default-settings
 #修改版本号
 #sed -i 's/OpenWrt/Bin AutoBuild $(TZ=UTC-8 date "+%Y.%m.%d") @ OpenWrt/g' package/lean/default-settings/files/zzz-default-settings
-git clone https://github.com/project-openwrt/luci-app-koolproxyR.git package/luci-app-koolproxyR
+#git clone https://github.com/project-openwrt/luci-app-koolproxyR.git package/luci-app-koolproxyR
 #git clone https://github.com/jerrykuku/luci-app-jd-dailybonus.git package/luci-app-jd-dailybonus
 #git clone https://github.com/jerrykuku/node-request.git package/node-request
