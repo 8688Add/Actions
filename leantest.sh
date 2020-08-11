@@ -16,10 +16,10 @@ sed -i 's/KERNEL_TESTING_PATCHVER:=5.4/KERNEL_TESTING_PATCHVER:=4.14/g' target/l
 #git clone https://github.com/tty228/luci-app-serverchan.git package/luci-app-serverchan
 #git clone https://github.com/Lienol/openwrt-package.git package/luci-app-passwall
 #git clone https://github.com/Lienol/openwrt-package.git package/luci-theme-argon-dark-mod
-git clone -b master https://github.com/vernesong/OpenClash.git package/luci-app-openclash
+#git clone -b master https://github.com/vernesong/OpenClash.git package/luci-app-openclash
 #git clone https://github.com/destan19/OpenAppFilter.git package/luci-app-oaf
-#git clone https://github.com/jerrykuku/luci-app-vssr.git package/luci-app-vssr
-#git clone https://github.com/jerrykuku/lua-maxminddb.git package/lua-maxminddb
+git clone https://github.com/jerrykuku/luci-app-vssr.git package/luci-app-vssr
+git clone https://github.com/jerrykuku/lua-maxminddb.git package/lua-maxminddb
 #git clone https://github.com/8688Add/small.git package/small
 #git clone https://github.com/jerrykuku/luci-app-jd-dailybonus.git package/luci-app-jd-dailybonus
 #git clone https://github.com/jerrykuku/node-request.git package/node-request
