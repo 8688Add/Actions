@@ -1,6 +1,5 @@
 rm -rf package/ctcgfw/luci-app-vssr
 git clone https://github.com/jerrykuku/luci-app-vssr.git package/ctcgfw/luci-app-vssr
-git clone https://github.com/8688Add/luci-app-flowoffload.git package/luci-app-flowoffload
 #git clone https://github.com/Leo-Jo-My/diy.git package/diy
 #rm -rf package/lean/luci-app-ssr-plus
 #git clone https://github.com/8688Add/luci-app-ssr-plus.git package/lean/luci-app-ssr-plus
