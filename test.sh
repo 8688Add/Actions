@@ -12,4 +12,4 @@ git clone https://github.com/jerrykuku/luci-app-vssr.git package/ctcgfw/luci-app
 #修改版本号
 #sed -i 's/OpenWrt/Bin AutoBuild $(TZ=UTC-8 date "+%Y.%m.%d") @ OpenWrt/g' package/lean/default-settings/files/zzz-default-settings
 #git clone https://github.com/project-openwrt/luci-app-koolproxyR.git package/luci-app-koolproxyR
-git clone https://github.com/8688Add/openwrt-bf.git package/openwrt-bf
+
