@@ -23,8 +23,8 @@ on:
 #    types: started
 
 env:
-  REPO_URL: https://github.com/coolsnowwolf/lede.git
-  REPO_BRANCH: master
+  REPO_URL: https://github.com/coolsnowwolf/openwrt.git
+  REPO_BRANCH: lede-17.01
   FEEDS_CONF: feeds.conf.default
   CONFIG_FILE: Nw3.config
   DIY_P1_SH: Nw3.sh
