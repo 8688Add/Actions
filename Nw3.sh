@@ -22,7 +22,7 @@ sed -i 's/KERNEL_TESTING_PATCHVER:=5.4/KERNEL_TESTING_PATCHVER:=4.14/g' target/l
 #git clone https://github.com/tty228/luci-app-serverchan.git package/luci-app-serverchan
 #git clone https://github.com/fw876/helloworld.git package/luci-app-ssr-plus
 git clone https://github.com/Mattraks/helloworld.git package/luci-app-ssr-plus
-git clone https://github.com/Lienol/openwrt-package.git package/openwrt-package
+#git clone https://github.com/Lienol/openwrt-package.git package/openwrt-package
 #git clone https://github.com/Lienol/openwrt-package.git package/luci-theme-argon-dark-mod
 git clone https://github.com/0118Add/luci-app-clash.git package/luci-app-clash
 git clone -b master https://github.com/vernesong/OpenClash.git package/luci-app-openclash
