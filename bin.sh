@@ -5,8 +5,8 @@
 #sed -i 's/luci-theme-bootstrap/luci-theme-argon/g' feeds/luci/collections/luci/Makefile
 #修改主机名
 #sed -i 's/OpenWrt/Bin-Lean/g' package/base-files/files/bin/config_generate
-#关闭自建私有源签名验证
-#sed -i '92d' package/system/opkg/Makefile
+
+sed -i 's/#src-git helloworld/src-git helloworld/g' ./feeds.conf.default
 
 
 #添加额外软件包
