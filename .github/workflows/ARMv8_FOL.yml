@@ -8,7 +8,7 @@ on:
     branches:
       - master
     paths:
-      - 'aarch64/ARMv8_FOL.config'
+      - 'ARMv8_FOL.config'
   schedule:
     - cron: 0 16 * * *
   watch:
@@ -18,12 +18,12 @@ env:
   REPO_URL: https://github.com/coolsnowwolf/lede
   REPO_BRANCH: master
   FEEDS_CONF: feeds.conf.default
-  CONFIG_FILE: aarch64/ARMv8_FOL.config
+  CONFIG_FILE: ARMv8_FOL.config
   DIY_P1_SH: diy-part1.sh
   DIY_P2_SH: diy-part2.sh
-  MRG_ADD_SH: aarch64/ARMv8.sh
-  Update_Ver_SH: aarch64/autoVersion.sh
-  DOCKER_BUILD_SH: buildImage.sh
+  MRG_ADD_SH: ARMv8.sh
+#  Update_Ver_SH: autoVersion.sh
+#  DOCKER_BUILD_SH: buildImage.sh
 #   SSH_ACTIONS: false
   UPLOAD_BIN_DIR: false
   UPLOAD_FIRMWARE: false
@@ -92,8 +92,7 @@ jobs:
         chmod +x $DIY_P2_SH
         cd openwrt
         $GITHUB_WORKSPACE/$DIY_P2_SH
-        sed -i 's/192.168.1.1/192.168.123.1/g' package/base-files/files/bin/config_generate
-        sed -i 's/OpenWrt/MRG AutoBuild ${{ env.DATE1 }} @ OpenWrt/g' package/lean/default-settings/files/zzz-default-settings
+        sed -i 's/OpenWrt/BGG ${{ env.DATE1 }} @ OpenWrt/g' package/lean/default-settings/files/zzz-default-settings
         
 #     - name: SSH connection to Actions
 #       uses: P3TERX/debugger-action@master
