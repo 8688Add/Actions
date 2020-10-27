@@ -6,7 +6,7 @@
 #修改主机名
 #sed -i 's/OpenWrt/Bin-Lean/g' package/base-files/files/bin/config_generate
 
-sed -i 's/#src-git helloworld/src-git helloworld/g' ./feeds.conf.default
+#sed -i 's/#src-git helloworld/src-git helloworld/g' ./feeds.conf.default
 
 
 #添加额外软件包
@@ -28,7 +28,7 @@ git clone https://github.com/jerrykuku/luci-app-jd-dailybonus.git package/openwr
 #git clone https://github.com/bin20088/luci-app-koolproxy.git package/openwrt-packages/luci-app-koolproxy
 git clone https://github.com/bin20088/luci-app-koolddns.git package/openwrt-packages/luci-app-koolddns
 #git clone https://github.com/tuanqing/install-program package/openwrt-packages/install-program
-#svn co https://github.com/0saga0/OpenClash/trunk/luci-app-openclash package/openwrt-packages/luci-app-openclash
+svn co https://github.com/0saga0/OpenClash/trunk/luci-app-openclash package/openwrt-packages/luci-app-openclash
 svn co https://github.com/xiaoqingfengATGH/luci-theme-infinityfreedom/trunk/luci-theme-infinityfreedom package/openwrt-packages/luci-theme-infinityfreedom
 
 #赋予koolddns权限
