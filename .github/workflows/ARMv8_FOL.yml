@@ -20,7 +20,7 @@ env:
   FEEDS_CONF: feeds.conf.default
   CONFIG_FILE: ARMv8_FOL.config
   DIY_P1_SH: diy-part1.sh
-  DIY_P2_SH: diy-part2.sh
+  DIY_P2_SH: bin.sh
   MRG_ADD_SH: ARMv8.sh
   Update_Ver_SH: autoVersion.sh
   DOCKER_BUILD_SH: buildImage.sh
