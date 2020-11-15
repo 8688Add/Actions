@@ -27,8 +27,8 @@ env:
   REPO_BRANCH: master
   FEEDS_CONF: feeds.conf.default
   CONFIG_FILE: leantest.config
-  DIY_P1_SH: leantest.sh
-  DIY_P2_SH: diy-part2.sh
+  DIY_P1_SH: diy-part1.sh
+  DIY_P2_SH: leantest.sh
   SSH_ACTIONS: false
   UPLOAD_BIN_DIR: true
   UPLOAD_FIRMWARE: true
