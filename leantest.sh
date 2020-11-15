@@ -34,4 +34,4 @@
 #git clone -b 18.06 https://github.com/garypang13/luci-theme-edge package/luci-theme-edge
 #git clone https://github.com/jerrykuku/luci-app-jd-dailybonus.git package/luci-app-jd-dailybonus
 rm -rf package/lean/luci-app-frpc
-git clone https://github.com/8688Add/frp.git package/luci-app-frpc
+git clone https://github.com/8688Add/frp.git package/lean/luci-app-frpc
