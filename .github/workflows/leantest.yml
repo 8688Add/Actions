@@ -12,8 +12,8 @@ on:
   #  - cron: 0 8 * * 5
 
 env:
-  REPO_URL: https://github.com/Mattraks/lede
-  REPO_BRANCH: develop
+  REPO_URL: https://github.com/coolsnowwolf/openwrt
+  REPO_BRANCH: lede-17.01
   FEEDS_CONF: feeds.conf.default
   CONFIG_FILE: leantest.config
   DIY_P1_SH: diy-part1.sh
