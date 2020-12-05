@@ -26,6 +26,8 @@ chmod 0755 package/lean/luci-app-frpc/root/etc/init.d/frp
 rm -rf package/lean/luci-app-unblockmusic
 svn co https://github.com/project-openwrt/openwrt/trunk/package/lean/luci-app-unblockmusic package/lean/luci-app-unblockmusic
 
+rm -rf package/lean/luci-app-flowoffload
+svn co https://github.com/coolsnowwolf/openwrt/trunk/package/lean/luci-app-flowoffload package/lean/luci-app-flowoffload
 svn co https://github.com/fw876/helloworld/trunk/tcping package/lean/tcping
 svn co https://github.com/coolsnowwolf/lede/trunk/package/lean/shadowsocksr-libev package/lean/shadowsocksr-libev
 svn co https://github.com/coolsnowwolf/lede/trunk/package/lean/pdnsd-alt package/lean/pdnsd-alt
