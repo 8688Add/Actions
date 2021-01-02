@@ -40,4 +40,4 @@ svn co https://github.com/coolsnowwolf/lede/trunk/package/lean/redsocks2 package
 sed -i 's/"Turbo ACC 网络加速"/"网络加速"/g' package/lean/luci-app-flowoffload/po/zh-cn/flowoffload.po
 sed -i 's/"Turbo ACC 网络加速"/"网络加速"/g' package/lean/luci-app-sfe/po/zh-cn/sfe.po
 #sed -i 's/"ShadowSocksR Plus+"/"SSR Plus+"/g' package/luci-app-ssr-plus/luasrc/controller/shadowsocksr.lua
-sed -i 's/"解锁网易云灰色歌曲"/"解锁网易云音乐"/g' package/lean/luci-app-unblockmusic/po/zh-cn/unblockmusic.po
+#sed -i 's/"解锁网易云灰色歌曲"/"解锁网易云音乐"/g' package/lean/luci-app-unblockmusic/po/zh-cn/unblockmusic.po
